@@ -9,11 +9,20 @@
 <body>
 
     <div class="pokedex-container">
-        <img class="pkmLogo" src="./pngegg.png">
+       
         <h1>
+            <img class="pkmLogo" src="./pngegg.png">
         </h1>
-        <div class="pokemon-list" id="pokemonList"></div>  
-      </div>
+        <div class="pokemon-list" id="pokemonList"></div> 
+            
+        <!--esto es de la vista especifica-->  
+        <div class="pokemon-detail" id="pokemonDetail" style="display: none;">
+            <button id="btnBack">Back to Pokedex</button>
+            <div id="pokemonInfo"></div>
+        </div> 
+    </div>
+    
+
     
 </body>
 <script src="main.js"></script>
